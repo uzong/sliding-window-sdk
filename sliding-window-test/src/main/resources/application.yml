@@ -1,0 +1,14 @@
+spring:
+  redis:
+    host: xxx
+    port: 30079
+    database: 12
+    timeout: 3000
+    password: 12345678
+
+sliding:
+  window:
+    enabled: true
+    key-prefix: "sl_:"
+    datacenter-id: 1
+    machine-id: 1

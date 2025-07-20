@@ -1,0 +1,36 @@
+{
+  "groups": [
+    {
+      "name": "sliding.window",
+      "type": "com.uzong.sliding.window.config.SlidingWindowProperties",
+      "sourceType": "com.uzong.sliding.window.config.SlidingWindowProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "sliding.window.datacenter-id",
+      "type": "java.lang.Long",
+      "description": "雪花算法数据中心ID",
+      "sourceType": "com.uzong.sliding.window.config.SlidingWindowProperties"
+    },
+    {
+      "name": "sliding.window.enabled",
+      "type": "java.lang.Boolean",
+      "description": "是否启用滑动窗口功能",
+      "sourceType": "com.uzong.sliding.window.config.SlidingWindowProperties"
+    },
+    {
+      "name": "sliding.window.key-prefix",
+      "type": "java.lang.String",
+      "description": "Redis键前缀",
+      "sourceType": "com.uzong.sliding.window.config.SlidingWindowProperties"
+    },
+    {
+      "name": "sliding.window.machine-id",
+      "type": "java.lang.Long",
+      "description": "雪花算法机器ID",
+      "sourceType": "com.uzong.sliding.window.config.SlidingWindowProperties"
+    }
+  ],
+  "hints": []
+}

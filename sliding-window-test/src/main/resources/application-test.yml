@@ -1,0 +1,7 @@
+spring:
+  redis:
+    host: xxx
+    port: 30079
+    database: 12  # 使用2号数据库，避免影响测试环境
+    timeout: 3000
+    password: 12345678
